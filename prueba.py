@@ -41,6 +41,10 @@ for num in listaEvaluar:
     menor, mayor = buscar_vecinos(listaBD, num)
     #Ahora imprimimos los numeros 
     print(f" {menor if menor is not None else 'X'} {mayor if mayor is not None else 'X'}\n")
+    
+# Para que no se cierre la terminal
+print("Presiona cualquier tecla para cerrar la terminal...")
+input() 
 
 
 
